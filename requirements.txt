@@ -1,0 +1,8 @@
+pandas
+seaborn
+matplotlib
+plotly
+scikit-learn
+tensorflow==2.6
+keras==2.6
+music21
