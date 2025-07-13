@@ -1,6 +1,7 @@
 # Music Generation with LSTM Neural Networks
 
 This project uses LSTM (Long Short-Term Memory) neural networks to generate classical music by training on MIDI files of compositions from various classical composers.
+
 ## Project Structure
 
 `train.py`: Trains LSTM models on classical music MIDI data and saves both the trained models and their training loss plots.
@@ -14,10 +15,10 @@ This project uses LSTM (Long Short-Term Memory) neural networks to generate clas
 `output/`: Stores generated MIDI files and training loss plots.
 ## Setup
 
-Requirements
-
-Ensure you have the following libraries installed:
+Requirements: ensure you have the following libraries installed:
+```
 pip install tensorflow numpy pandas music21 matplotlib sklearn seaborn
+```
 ## Data
 
 Place MIDI files for each composer in their respective subfolders under data/classical-music-midi/. 
